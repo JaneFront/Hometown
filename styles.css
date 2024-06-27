@@ -1,0 +1,108 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #F1FAEE;
+}
+
+
+.header {
+    background-image: url(images/view.jpg);
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#title {
+    background: #1D3557;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 100px 0 10px 0;
+}
+
+#subtitle {
+    background: #457B9D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #F1FAEE;
+}
+
+.activities_section {
+    background: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    color: #1D3557;
+    padding: 50px 30px 40px 30px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: #1D3557;  
+}
+
+h4 {
+    font-size: 16px;
+    color: #1D3557;
+}
+
+
+.activities_img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.activities_img:hover {
+    width: 200px
+}
+
+.guide_section {
+    background: #A8DADC;
+    display: flex;
+    width: 400px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+
+h3 {
+    font-size: 24px;
+    color: #1D3557;
+}
+
+
+.guide_p {
+    color: #1D3557;
+    font-size: 16px;
+    font-style: italic;
+    text-align:justify;
+    padding: 10px;
+}
+
+
+.guide_img {
+    border-radius: 10px;
+    width: 200px;
+   
+}
